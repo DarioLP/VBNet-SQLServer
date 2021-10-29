@@ -1,0 +1,10 @@
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\bin\Debug\Entidad.dll
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\bin\Debug\Entidad.xml
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.vbprojAssemblyReference.cache
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.Resources.resources
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.vbproj.GenerateResource.cache
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.vbproj.CoreCompileInputs.cache
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.dll
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.xml
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Entidad\obj\Debug\Entidad.pdb

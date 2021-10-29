@@ -4,10 +4,13 @@ C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignac
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\bin\Debug\Asignacion8.xml
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.vbprojAssemblyReference.cache
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.Form1.resources
-C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.Form2.resources
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.Resources.resources
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.vbproj.GenerateResource.cache
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.vbproj.CoreCompileInputs.cache
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.exe
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.xml
 C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.pdb
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\obj\Debug\Asignacion8.vbproj.CopyComplete
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\bin\Debug\ClassLibrary1.dll
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\bin\Debug\ClassLibrary1.pdb
+C:\Users\Trmca\Documents\UTP\semestre_2_2021\DesSoftVIII\VBNet-SQLServer\Asignacion8\bin\Debug\ClassLibrary1.xml

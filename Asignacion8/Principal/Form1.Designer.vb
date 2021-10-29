@@ -28,21 +28,21 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtcorreo = New System.Windows.Forms.TextBox()
+        Me.txtusuario = New System.Windows.Forms.TextBox()
+        Me.txtnombre = New System.Windows.Forms.TextBox()
+        Me.txtapellido = New System.Windows.Forms.TextBox()
+        Me.txtcontraseña = New System.Windows.Forms.TextBox()
+        Me.txttelefono = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.btncerrar = New System.Windows.Forms.Button()
+        Me.btneliminar = New System.Windows.Forms.Button()
+        Me.btnmodificar = New System.Windows.Forms.Button()
+        Me.btncancelar = New System.Windows.Forms.Button()
+        Me.btnregistrar = New System.Windows.Forms.Button()
+        Me.dgvinfo = New System.Windows.Forms.DataGridView()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvinfo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -99,67 +99,67 @@ Partial Class Form1
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Telefono:"
         '
-        'TextBox1
+        'txtcorreo
         '
-        Me.TextBox1.Location = New System.Drawing.Point(123, 29)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 6
+        Me.txtcorreo.Location = New System.Drawing.Point(123, 29)
+        Me.txtcorreo.Name = "txtcorreo"
+        Me.txtcorreo.Size = New System.Drawing.Size(100, 20)
+        Me.txtcorreo.TabIndex = 6
         '
-        'TextBox2
+        'txtusuario
         '
-        Me.TextBox2.Location = New System.Drawing.Point(123, 56)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 7
+        Me.txtusuario.Location = New System.Drawing.Point(123, 56)
+        Me.txtusuario.Name = "txtusuario"
+        Me.txtusuario.Size = New System.Drawing.Size(100, 20)
+        Me.txtusuario.TabIndex = 7
         '
-        'TextBox3
+        'txtnombre
         '
-        Me.TextBox3.Location = New System.Drawing.Point(123, 83)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 8
+        Me.txtnombre.Location = New System.Drawing.Point(123, 83)
+        Me.txtnombre.Name = "txtnombre"
+        Me.txtnombre.Size = New System.Drawing.Size(100, 20)
+        Me.txtnombre.TabIndex = 8
         '
-        'TextBox4
+        'txtapellido
         '
-        Me.TextBox4.Location = New System.Drawing.Point(123, 108)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 9
+        Me.txtapellido.Location = New System.Drawing.Point(123, 108)
+        Me.txtapellido.Name = "txtapellido"
+        Me.txtapellido.Size = New System.Drawing.Size(100, 20)
+        Me.txtapellido.TabIndex = 9
         '
-        'TextBox5
+        'txtcontraseña
         '
-        Me.TextBox5.Location = New System.Drawing.Point(123, 134)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 10
+        Me.txtcontraseña.Location = New System.Drawing.Point(123, 134)
+        Me.txtcontraseña.Name = "txtcontraseña"
+        Me.txtcontraseña.Size = New System.Drawing.Size(100, 20)
+        Me.txtcontraseña.TabIndex = 10
         '
-        'TextBox6
+        'txttelefono
         '
-        Me.TextBox6.Location = New System.Drawing.Point(123, 158)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 11
+        Me.txttelefono.Location = New System.Drawing.Point(123, 158)
+        Me.txttelefono.Name = "txttelefono"
+        Me.txttelefono.Size = New System.Drawing.Size(100, 20)
+        Me.txttelefono.TabIndex = 11
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button5)
+        Me.GroupBox1.Controls.Add(Me.btncerrar)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.Button4)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
-        Me.GroupBox1.Controls.Add(Me.Button3)
+        Me.GroupBox1.Controls.Add(Me.btneliminar)
+        Me.GroupBox1.Controls.Add(Me.txttelefono)
+        Me.GroupBox1.Controls.Add(Me.btnmodificar)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
-        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.btncancelar)
+        Me.GroupBox1.Controls.Add(Me.txtcontraseña)
+        Me.GroupBox1.Controls.Add(Me.btnregistrar)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.txtapellido)
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.txtnombre)
         Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.txtusuario)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.txtcorreo)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 22)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(342, 202)
@@ -167,71 +167,71 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Registro"
         '
-        'Button1
+        'btncerrar
         '
-        Me.Button1.Location = New System.Drawing.Point(248, 27)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Registrar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btncerrar.Location = New System.Drawing.Point(248, 132)
+        Me.btncerrar.Name = "btncerrar"
+        Me.btncerrar.Size = New System.Drawing.Size(75, 23)
+        Me.btncerrar.TabIndex = 17
+        Me.btncerrar.Text = "Cerrar"
+        Me.btncerrar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btneliminar
         '
-        Me.Button2.Location = New System.Drawing.Point(248, 54)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 14
-        Me.Button2.Text = "Cancelar"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btneliminar.Location = New System.Drawing.Point(248, 106)
+        Me.btneliminar.Name = "btneliminar"
+        Me.btneliminar.Size = New System.Drawing.Size(75, 23)
+        Me.btneliminar.TabIndex = 16
+        Me.btneliminar.Text = "Eliminar"
+        Me.btneliminar.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnmodificar
         '
-        Me.Button3.Location = New System.Drawing.Point(248, 81)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "Modificar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnmodificar.Location = New System.Drawing.Point(248, 81)
+        Me.btnmodificar.Name = "btnmodificar"
+        Me.btnmodificar.Size = New System.Drawing.Size(75, 23)
+        Me.btnmodificar.TabIndex = 15
+        Me.btnmodificar.Text = "Modificar"
+        Me.btnmodificar.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btncancelar
         '
-        Me.Button4.Location = New System.Drawing.Point(248, 106)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 16
-        Me.Button4.Text = "Eliminar"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btncancelar.Location = New System.Drawing.Point(248, 54)
+        Me.btncancelar.Name = "btncancelar"
+        Me.btncancelar.Size = New System.Drawing.Size(75, 23)
+        Me.btncancelar.TabIndex = 14
+        Me.btncancelar.Text = "Cancelar"
+        Me.btncancelar.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btnregistrar
         '
-        Me.Button5.Location = New System.Drawing.Point(248, 132)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 17
-        Me.Button5.Text = "Cerrar"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnregistrar.Location = New System.Drawing.Point(248, 27)
+        Me.btnregistrar.Name = "btnregistrar"
+        Me.btnregistrar.Size = New System.Drawing.Size(75, 23)
+        Me.btnregistrar.TabIndex = 13
+        Me.btnregistrar.Text = "Registrar"
+        Me.btnregistrar.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'dgvinfo
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(360, 26)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(428, 198)
-        Me.DataGridView1.TabIndex = 13
+        Me.dgvinfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvinfo.Location = New System.Drawing.Point(360, 26)
+        Me.dgvinfo.Name = "dgvinfo"
+        Me.dgvinfo.Size = New System.Drawing.Size(428, 198)
+        Me.dgvinfo.TabIndex = 13
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 237)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dgvinfo)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvinfo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -242,17 +242,17 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtcorreo As TextBox
+    Friend WithEvents txtusuario As TextBox
+    Friend WithEvents txtnombre As TextBox
+    Friend WithEvents txtapellido As TextBox
+    Friend WithEvents txtcontraseña As TextBox
+    Friend WithEvents txttelefono As TextBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents btncerrar As Button
+    Friend WithEvents btneliminar As Button
+    Friend WithEvents btnmodificar As Button
+    Friend WithEvents btncancelar As Button
+    Friend WithEvents btnregistrar As Button
+    Friend WithEvents dgvinfo As DataGridView
 End Class
